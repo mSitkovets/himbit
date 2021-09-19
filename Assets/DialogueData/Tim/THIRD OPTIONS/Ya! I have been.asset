@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e08f8b0c9084a0c82d536e896191be, type: 3}
+  m_Name: Ya! I have been
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Awesome! Haha!
+  - "I have been as well, it\u2019s nice to meet someone similar. I would ask what
+    you\u2019re studying but, it\u2019s so early in the morning I doubt you wanna
+    talk about class work. I certainly don\u2019t haha."
+  - Do you have any hobbies outside of what you study? I like baking personally.
+  responses:
+  - responseText: Not really, honestly
+    dialogueObject: {fileID: 11400000, guid: 5ec92c04b0f0917439679325c81cbfec, type: 2}
+  - responseText: Baking? Really?
+    dialogueObject: {fileID: 11400000, guid: 74a03c67c2993af45973ffdf6842b58f, type: 2}
+  - responseText: I like drinking coffee, the greatest hobby
+    dialogueObject: {fileID: 11400000, guid: 5de9a6e52c7e0684d98476bedf78e98a, type: 2}
+  emotion: Happy

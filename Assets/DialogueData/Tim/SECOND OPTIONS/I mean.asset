@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e08f8b0c9084a0c82d536e896191be, type: 3}
+  m_Name: I mean
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Just kind of? Ya I get that...I like coming here whenever I get the chance honestly!
+  - They have good coffee, and I especially enjoy their muffins! Nothing like a fresh
+    muffin in the morning!
+  - Um say...with a bag like yours, you gotta have been like...here longer than a
+    first year, eh?
+  responses:
+  - responseText: I'm actually in my first year.
+    dialogueObject: {fileID: 11400000, guid: 8140c835b6e92404f900ef358925d804, type: 2}
+  - responseText: Does it really matter if I have been?
+    dialogueObject: {fileID: 11400000, guid: b532a1bac978abb4980eaa9fa3a68cfc, type: 2}
+  - responseText: Ya I have been, have you?
+    dialogueObject: {fileID: 11400000, guid: 6fc848806e9d5754ca11f894fdffb3fe, type: 2}
+  emotion: Sad

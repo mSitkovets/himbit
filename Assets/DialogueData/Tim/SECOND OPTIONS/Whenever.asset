@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e08f8b0c9084a0c82d536e896191be, type: 3}
+  m_Name: Whenever
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Oh wow! Me too! Him Tortons is my favourite place to get coffee. Though, I think
+    I come here too often.
+  - "I don\u2019t think I\u2019ve seen you around, you just start here?...actually
+    don\u2019t tell me I wanna guess."
+  - "Hmm...well...based on your backpack, and how early it is\u2026"
+  - "You must\u2019ve been here for a few years! Right? Did I guess right!"
+  responses:
+  - responseText: I'm actually in my first year.
+    dialogueObject: {fileID: 11400000, guid: 8140c835b6e92404f900ef358925d804, type: 2}
+  - responseText: Does it really matter if I have been?
+    dialogueObject: {fileID: 11400000, guid: b532a1bac978abb4980eaa9fa3a68cfc, type: 2}
+  - responseText: Ya! I have been, have you?
+    dialogueObject: {fileID: 11400000, guid: 6fc848806e9d5754ca11f894fdffb3fe, type: 2}
+  emotion: Happy
