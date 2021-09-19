@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e08f8b0c9084a0c82d536e896191be, type: 3}
+  m_Name: I like drinking coffee
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Hahaha, you\u2019re quite the jokester! I also really enjoy coffee to be fair,
+    so I totally get you."
+  - "Double double is my favourite by far, a landslide even!...coffee...slide\u2026"
+  - "Ya that wasn\u2019t funny at all."
+  - "Oh! You\u2019re almost at the cash, it\u2019s been really fun chatting with
+    you!"
+  - "Maybe...if you don\u2019t mind, we could meet up here again sometime? I\u2019d
+    like to chat more!"
+  responses:
+  - responseText: Ugh, no. Weirdo
+    dialogueObject: {fileID: 11400000, guid: 28b315e81f4e16745a142e1f602c0eba, type: 2}
+  - responseText: I'd like that, it's been fun.
+    dialogueObject: {fileID: 11400000, guid: 6e836d91dbf220c44b0d72b6e41982cb, type: 2}
+  - responseText: Uh...sure?
+    dialogueObject: {fileID: 11400000, guid: 2c53aae5fbb3f374e94aa75acaed3e18, type: 2}
+  emotion: Happy

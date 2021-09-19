@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e08f8b0c9084a0c82d536e896191be, type: 3}
+  m_Name: Be Careful
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Ya! For sure, really sorry about that.
+  - "So you\u2019re okay? That's good, I was...worried I could\u2019ve knocked you
+    over. I\u2019m just a little bit spacey and I tend to walk really fast haha\u2026"
+  - '!He takes a pause for a bit, seemingly a bit nervous.'
+  - "Sorry um...do you get Him Tortons often? I\u2019m just curious...is all..."
+  responses:
+  - responseText: Ew.
+    dialogueObject: {fileID: 11400000, guid: 8bfe5df2aee4b794f955404c50c404bc, type: 2}
+  - responseText: I mean, maybe I guess?
+    dialogueObject: {fileID: 11400000, guid: 9fa164e5a6f0b894aab9bce1d8af5a96, type: 2}
+  - responseText: Whenever I want coffee!
+    dialogueObject: {fileID: 11400000, guid: f516d1e43f7f86c47b776a6a06b79ce8, type: 2}
+  emotion: Sad

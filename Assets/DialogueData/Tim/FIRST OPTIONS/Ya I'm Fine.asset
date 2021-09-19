@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e08f8b0c9084a0c82d536e896191be, type: 3}
+  m_Name: Ya I'm Fine
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Well uh...ya I\u2019m okay! I was more worried about you, that backpack looks
+    rather heavy."
+  - '!He gets in line behind you, and you go back to standing lost in the struggle
+    to make a decision.'
+  - Um...do you get Him Tortons often?
+  - "!You turn around, noticing that there isn\u2019t really anyone else near him
+    other than you."
+  - "Sorry! I hope I\u2019m not bothering you I just...I don\u2019t get to talk to
+    people that much \u2018cause I\u2019m so busy with classes...I was just curious
+    but you don\u2019t have to answer...if you don\u2019t want to of course."
+  responses:
+  - responseText: Ew.
+    dialogueObject: {fileID: 11400000, guid: 8bfe5df2aee4b794f955404c50c404bc, type: 2}
+  - responseText: I mean, maybe I guess?
+    dialogueObject: {fileID: 11400000, guid: 9fa164e5a6f0b894aab9bce1d8af5a96, type: 2}
+  - responseText: Whenever I want coffee!
+    dialogueObject: {fileID: 11400000, guid: f516d1e43f7f86c47b776a6a06b79ce8, type: 2}
+  emotion: Happy

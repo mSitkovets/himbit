@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e08f8b0c9084a0c82d536e896191be, type: 3}
+  m_Name: Beginning
+  m_EditorClassIdentifier: 
+  dialogue:
+  - '!You arrive early on campus, something that rarely ever happens given the glorious
+    track record of your wonderful neighbourhood public transit system.'
+  - '!You consider the possibility of trying to go to class early, maybe going to
+    study in the library...but neither seems particularly appealing.'
+  - "!While walking through the halls you pass a familiar sight\u2026"
+  - '!Him Tortons'
+  - "!You\u2019ve been here many early mornings and late nights on campus, to get
+    your coffee fix. Today is one of those mornings, you are certain of it."
+  - "!The line, as per usual, goes down the hall. Considering you have so much time
+    to kill it\u2019s not that much of a problem, and join the line."
+  - '!While debating if you should get anything else with your morning coffee, someone
+    bumps into you.'
+  - ;Ah! Sorry, I didn't mean to hit you! Are you alright?
+  responses:
+  - responseText: Ya, I'm fine, are you okay?
+    dialogueObject: {fileID: 11400000, guid: a480ae99dffe9ac4a9a4dbaf81a3519b, type: 2}
+  - responseText: Be careful next time.
+    dialogueObject: {fileID: 11400000, guid: e31473bce939ffa489e837978359d4d7, type: 2}
+  - responseText: ...
+    dialogueObject: {fileID: 11400000, guid: 7516be94a44f40241a983ea37fb45ff9, type: 2}
+  emotion: Neutral
