@@ -55,19 +55,19 @@ public class DialogueUI : MonoBehaviour
             //set sprite to neutral
             tim.GetComponent<SpriteRenderer>().sprite = neutral;
         }
-        if (dialogueObject.Emotion.Equals("Happy"))
+        else if (dialogueObject.Emotion.Equals("Happy"))
         {
             //set sprite to happy
             tim.GetComponent<SpriteRenderer>().sprite = happy;
             //effect?
         }
-        if (dialogueObject.Emotion.Equals("Sad"))
+        else if (dialogueObject.Emotion.Equals("Sad"))
         {
             //set sprite to sad
             tim.GetComponent<SpriteRenderer>().sprite = sad;
             //effect?
         }
-        if (dialogueObject.Emotion.Equals("Angry"))
+        else if (dialogueObject.Emotion.Equals("Angry"))
         {
             //set sprite to angry
             tim.GetComponent<SpriteRenderer>().sprite = angy;
